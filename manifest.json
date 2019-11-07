@@ -9,7 +9,7 @@
     },
     "applications": {
         "gecko": {
-            "id": "custom-sync-interval@tunefish",
+            "id": "customsyncinterval@tunefish",
             "strict_min_version": "68.0a1"
         }
     }
