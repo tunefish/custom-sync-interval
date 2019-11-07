@@ -51,21 +51,21 @@ let customSyncInterval = {
 
         // dynamically generate DOM elements for custom value entry:
         // "Custom..." menu item
-        const customItem = createXULElement("menuitem");
+        const customItem = document.createXULElement("menuitem");
         customItem.setAttribute("value", -1);
         customItem.setAttribute("label", strings.getString("custominterval"));
         customSyncInterval.insertAfter(manualMenuEntry, customItem);
 
         // initially hidden row with labels and input field
-        const customRow = createXULElement("row");
+        const customRow = document.createXULElement("row");
         customRow.setAttribute("id", "calendar-customInterval-row");
         customRow.setAttribute("hidden", true);
 
         // no label for this row
-        customRow.appendChild(createXULElement("spacer"));
+        customRow.appendChild(document.createXULElement("spacer"));
 
         // hbox for proper alignment
-        const box = createXULElement("hbox");
+        const box = document.createXULElement("hbox");
         box.setAttribute("align", "center");
         customRow.appendChild(box);
 

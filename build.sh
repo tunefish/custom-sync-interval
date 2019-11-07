@@ -1,1 +1,1 @@
-zip customsyncinterval.xpi chrome.manifest install.rdf license.txt chrome/content/customsyncinterval.js chrome/content/customsyncinterval.xul chrome/locale/de-DE/global.properties chrome/locale/en-US/global.properties
+zip customsyncinterval.xpi chrome.manifest manifest.json license.txt chrome/content/customsyncinterval.js chrome/content/customsyncinterval.xul chrome/locale/de-DE/global.properties chrome/locale/en-US/global.properties
